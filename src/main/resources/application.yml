@@ -13,3 +13,4 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
+      #ddl-auto : create // 기존 테이블에 새 테이블이 덮어짐

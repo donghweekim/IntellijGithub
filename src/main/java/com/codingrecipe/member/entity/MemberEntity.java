@@ -15,7 +15,7 @@ public class MemberEntity {
 //    @GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
     private String id;
 
-    @Column(unique = true)
+    @Column(unique = true) // 종복 허용x
     private String pw;
 
     @Column
